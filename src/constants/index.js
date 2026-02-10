@@ -115,6 +115,7 @@ import {
   SiSlack,
   SiChatbot,
 } from "react-icons/si";
+import { SiMui, SiJsonwebtokens } from "react-icons/si";
 
 import {
   FaElementor,
@@ -548,6 +549,26 @@ export const experiences = [
 // Add information about all the projects to be listed out in your portfolio
 export const projects = [
   {
+    id: "project-0",
+    title: "Zerodha Clone – Full Stack Trading Platform",
+    github: "https://github.com/arjunchavhan024/ZERODHA-CLONE",
+    link: "https://github.com/arjunchavhan024/ZERODHA-CLONE",
+    image: airbnb, // make sure zerodha image import exists
+    content:
+      "A full-stack Zerodha trading platform clone built with React.js, Vite, Material-UI, Node.js, Express.js, and MongoDB. The application features a responsive customer interface, a Material-UI trading dashboard, routing, secure JWT authentication using Passport.js, and RESTful backend APIs enabling user registration, login, and protected trading routes with real-time portfolio views.",
+    stack: [
+      { id: "icon-1", icon: SiReact, name: "React.js" },
+      { id: "icon-2", icon: SiVite, name: "Vite" },
+      { id: "icon-3", icon: SiMui, name: "Material UI" },
+      { id: "icon-4", icon: SiNodedotjs, name: "Node.js" },
+      { id: "icon-5", icon: SiExpress, name: "Express.js" },
+      { id: "icon-6", icon: SiMongodb, name: "MongoDB" },
+      { id: "icon-7", icon: SiJsonwebtokens, name: "JWT" },
+      { id: "icon-8", icon: SiPassport, name: "Passport.js" },
+    ],
+  },
+
+  {
     id: "project-1",
     title: "Airbnb Clone – Full Stack Web App",
     github: "https://github.com/arjunchavhan024/Airbnb-Project",
@@ -556,83 +577,31 @@ export const projects = [
     content:
       "A full-stack Airbnb-inspired web application built using MongoDB, Express.js, and Node.js. The platform supports user authentication, property listings with CRUD operations, reviews, secure session management, social logins (Google & Facebook), image uploads via Cloudinary, and interactive maps using Mapbox. The project focuses on scalability, security, and real-world backend architecture.",
     stack: [
-      {
-        id: "icon-1",
-        icon: SiNodedotjs,
-        name: "Node.js",
-      },
-      {
-        id: "icon-2",
-        icon: SiExpress,
-        name: "Express.js",
-      },
-      {
-        id: "icon-3",
-        icon: SiMongodb,
-        name: "MongoDB",
-      },
-      {
-        id: "icon-4",
-        icon: SiMongoose,
-        name: "Mongoose",
-      },
-      {
-        id: "icon-5",
-        icon: SiPassport,
-        name: "Passport.js",
-      },
-      {
-        id: "icon-6",
-        icon: SiCloudinary,
-        name: "Cloudinary",
-      },
-      {
-        id: "icon-7",
-        icon: SiMapbox,
-        name: "Mapbox",
-      },
-      {
-        id: "icon-8",
-        icon: SiEjs,
-        name: "EJS",
-      },
+      { id: "icon-1", icon: SiNodedotjs, name: "Node.js" },
+      { id: "icon-2", icon: SiExpress, name: "Express.js" },
+      { id: "icon-3", icon: SiMongodb, name: "MongoDB" },
+      { id: "icon-4", icon: SiMongoose, name: "Mongoose" },
+      { id: "icon-5", icon: SiPassport, name: "Passport.js" },
+      { id: "icon-6", icon: SiCloudinary, name: "Cloudinary" },
+      { id: "icon-7", icon: SiMapbox, name: "Mapbox" },
+      { id: "icon-8", icon: SiEjs, name: "EJS" },
     ],
   },
 
   {
     id: "project-2",
     title: "SoftSell – Investment & Trading Platform",
-    github: "https://github.com/arjunchavhan024/SoftSell", // update if different
-    link: "https://softsell-arjunchavhan024.netlify.app/", // update if deployed elsewhere
+    github: "https://github.com/arjunchavhan024/SoftSell",
+    link: "https://softsell-arjunchavhan024.netlify.app/",
     image: greentrust,
     content:
       "SoftSell is a modern and responsive web application designed to showcase investment and trading products. Built with React and Vite, the platform delivers fast performance, clean UI, and seamless navigation across devices. It includes multiple pages such as Home, About, Products, Pricing, Contact, and Authentication, following a modular and scalable React architecture.",
     stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React",
-      },
-      {
-        id: "icon-2",
-        icon: SiVite,
-        name: "Vite",
-      },
-      {
-        id: "icon-3",
-        icon: SiBootstrap,
-        name: "Bootstrap",
-      },
-      {
-        id: "icon-4",
-        icon: SiCss3,
-        name: "CSS",
-      },
-      {
-        id: "icon-5",
-        icon: SiReactrouter,
-        name: "React Router",
-      },
+      { id: "icon-1", icon: SiReact, name: "React" },
+      { id: "icon-2", icon: SiVite, name: "Vite" },
+      { id: "icon-3", icon: SiBootstrap, name: "Bootstrap" },
+      { id: "icon-4", icon: SiCss3, name: "CSS" },
+      { id: "icon-5", icon: SiReactrouter, name: "React Router" },
     ],
   },
 ];
